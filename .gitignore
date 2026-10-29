@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Mac OS artifacts
+.DS_Store
+
+# Pytest / Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local model artifacts and generated caches (preserve directory structure via .gitkeep)
+artifacts/*
+!artifacts/.gitkeep
+
+# Local logs
+*.log
+
+# Environment variables
+.env
+
